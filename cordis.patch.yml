@@ -1,0 +1,6 @@
+# dsh-prompt-suggest bundle patch: mounts the host half (suggestion generator +
+# same-origin JSON endpoint) and the browser half (a candidate strip registered
+# into the conversation input dock slot).
+- insert:
+    - id: prompt-suggest
+      name: dsh-prompt-suggest
